@@ -1499,6 +1499,7 @@ GLOBAL_LIST_EMPTY(selectable_races)
 		if("disarm")
 			disarm(M, H, attacker_style)
 
+//WIZARD - TURN ALL THESE PARAMETERS INTO CARBON INSTEAD OF CARBON/HUMAN AND SEE IF IT WORKS
 /datum/species/proc/spec_attacked_by(obj/item/I, mob/living/user, obj/item/bodypart/affecting, intent, mob/living/carbon/human/H)
 	// Allows you to put in item-specific reactions based on species
 	var/modifikator = 1

@@ -177,7 +177,6 @@
 		w_uniform.add_fingerprint(user)
 	..()
 
-
 /mob/living/carbon/human/attacked_by(obj/item/I, mob/living/user)
 	if(!I || !user)
 		return FALSE

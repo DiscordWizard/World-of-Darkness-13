@@ -218,7 +218,6 @@
 	. = ..()
 	var/datum/action/change_apparel/A = new()
 	A.Grant(src)
-//	AddComponent(/datum/component/footstep, FOOTSTEP_MOB_CLAW, 0.5, -11)
 
 /mob/living/carbon/werewolf/lupus/Initialize()
 	. = ..()

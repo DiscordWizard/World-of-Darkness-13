@@ -66,7 +66,6 @@
 	do_rage_from_attack()
 	return ..()
 
-
 /mob/living/carbon/attacked_by(obj/item/I, mob/living/user)
 	if(I.force)
 		do_rage_from_attack(user)

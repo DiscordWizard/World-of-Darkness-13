@@ -10,9 +10,11 @@
 	. = ..()
 	crinos_form = new()
 	crinos_form.transformator = src
+	crinos_form.set_species(/datum/species/garou, FALSE) //this carbon is not initialised at roundstart, it never gets a species assigned
 //	crinos_form.forceMove(src)
 	lupus_form = new()
 	lupus_form.transformator = src
+	lupus_form.set_species(/datum/species/garou, FALSE) //this carbon is not initialised at roundstart, it never gets a species assigned
 //	lupus_form.forceMove(src)
 
 /obj/werewolf_holder/transformation/proc/transfer_damage(mob/living/carbon/first, mob/living/carbon/second)
